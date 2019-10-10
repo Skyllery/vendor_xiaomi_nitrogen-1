@@ -1273,6 +1273,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nitrogen/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/nitrogen/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/xiaomi/nitrogen
+
 PRODUCT_PACKAGES += \
     libantradio \
     vendor.qti.hardware.fm@1.0 \
