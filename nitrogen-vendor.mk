@@ -1274,7 +1274,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/nitrogen/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
     
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/xiaomi/whyred
+    vendor/xiaomi/nitrogen
 
 PRODUCT_PACKAGES += \
     libantradio \
